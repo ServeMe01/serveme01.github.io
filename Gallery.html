@@ -1,0 +1,41 @@
+<html>
+<center>
+  <head>
+    <h2>Gallery</h2>
+  </head>
+  <body>
+<script>
+var i = 0; 			// Starting
+var images = [];
+var time = 3000;	// Time Between images
+
+// Image List
+images[0] = "Image1.jpg";
+images[1] = "Image2.jpg";
+images[2] = "Image3.jpg";
+images[3] = "Image4.jpg";
+
+// Changeing it
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++;
+	} else {
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+</script>
+<img name="slide" width="500" height="200" />
+</body>
+</center>
+</html>
