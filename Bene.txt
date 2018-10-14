@@ -1,2 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+Text{
+<h1>Our Partners</h1>
+</style>
+</head>
+<body>
 
-Mon fichier personnel
+<img src="ampoule.jpg" width="128px";height="128px"><br>
+<img src="images.jpg" width="128px";height="128px"><br>
+<img src="COLLABORATION.jpg"width="128px";height="128px">
+
+</body>
+</html>
