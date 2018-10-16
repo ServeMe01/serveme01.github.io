@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="https://dcassetcdn.com/design_img/2123674/111931/111931_11407443_2123674_6fedd8bf_image.jpg" alt="Logo" width="90" height="60" style="float:left;">
+<h1 style="text-align:center;">Menu Bar</h1>
+<style>
+div.gauche {position:fixed;top:130px;left:0;z-index:-12;overflow:hidden;visibility:visible !important;}
+</style>
+<div class="gauche">
+<img src="https://www.eventnews.be/media/k2/items/cache/4defccd25e88a9636323b523e0e1e8c2_XL.jpg" alt="Catering" width="425" height="300" />
+
+<div>
+<style> 
+.bloc {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    width:400px;
+}
+.bloc h1 {
+    margin:0;
+    padding:5px;
+    font-size:1.5em;
+    color:#fff;
+    background-color:#9DADC6;
+    border:1px solid #8E98A4;
+    border-bottom:0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+.bloc p {
+    background-color:#e5e5e5;
+    padding:5px;
+    margin:0;
+    border:1px solid #fff;
+    border-top:0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+div.bloc {position:fixed;top:130px;right:0;z-index:-12;overflow:hidden;visibility:visible !important;}
+</style>
+<div class="bloc">
+    <h1>Our Vision</h1>
+    <p>ServeMe is a for profit business but it is not entirely about money. We profit from our relationship with you, your events’ success, your happiness and your guests enjoyment, and your repeat and referral business.</p>
+    <h2>Our Mission</h2>
+    <p>Our mission is to help you find what you need with the less effort possible and the maximum choices. 
+We firmly believe that our success depends on the well-being and comfort of our customers</p>
+</div>
+
+</body>
+</html>
