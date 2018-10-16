@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+CSS
+
 <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1" rel="stylesheet">
 <style>
 body{background-color: #fffcfc;
@@ -24,17 +23,9 @@ body{background-color: #fffcfc;
         font-size: 15pt;
         font-family: 'Do Hyeon', sans-serif;;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-.sticky + .content {
-  padding-top: 60px;
-}
-</style>
-</head>
+----------------------------------------------------------
+HTML
 
 <div>
   
@@ -48,14 +39,3 @@ body{background-color: #fffcfc;
 </ul>
 
 </div>
-
-<body>
-  <center>
-    <div>
-      <h1><font face="verdana"><!––SERVE ME!--></font></h1>
-    </div>
-  <img src="DishClosed.png" onclick="this.src='DishOpening.gif'" alt="Serve Me Dish" height="720" width="720">
-  </center>
-</body>
-
-</html>
