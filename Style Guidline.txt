@@ -1,0 +1,26 @@
+Serve Me!
+Style Guideline
+
+Overall aesthetic:
+
+	⁃	We are going for a minimalist, modern feel that is comfortable to read
+	⁃	We have classic colors that appeal to users looking for professionalism and the fonts reflect simplicity
+	⁃	Body text will be displayed in white 3D rounded blocks
+
+Fonts:
+	⁃	Logo: Tahoma
+	⁃	h1: Do Hyeon, 50px
+	⁃	body text: Gothic A1 light, 25px
+
+Colors:
+	⁃       #c10b01, maroon: part of logo on home page
+	- 	#000000, black: body color
+	⁃	#ffcfc, beige: background colour
+	⁃	#333, dark grey: menu bar, h1 bar 
+	⁃	#f7d033, gold: font color when hovered over button
+	- 	#ffffff, white: blocks for body text, h1
+
+
+
+Buttons:
+- font colour turns gold when hovered over 
