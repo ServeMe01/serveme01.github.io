@@ -1,0 +1,89 @@
+﻿{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+}
+    li {
+	float: right;
+}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 15pt;
+        
+}
+
+
+####################################################################
+
+{position:fixed;top:130px;left:0;z-index:-12;overflow:hidden;visibility:visible !important;}
+
+
+####################################################################
+
+
+.bloc {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    width:400px;
+}
+.bloc h1 {
+    margin:0;
+    padding:5px;
+    font-size:1.5em;
+    color:white;
+    background-color:#333;
+    border:1px solid #333;
+    border-bottom:0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.bloc h2 {
+    margin:0;
+    padding:5px;
+    font-size:1.5em;
+    color:white;
+    background-color:#333;
+    border:1px solid #333;
+    border-bottom:0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.bloc p {
+    background-color:white;
+    font-family: 'Gothic A1', sans-serif;
+    padding:5px;
+    margin:0;
+    border:1px solid white;
+    border-top:0;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.bloc p {
+    background-color:white;
+    font-family: 'Gothic A1', sans-serif;
+    padding:5px;
+    margin:0;
+    border:1px solid white;
+    border-top:0; 
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+div.bloc {position:fixed;top:130px;right:0;z-index:-12;overflow:hidden;visibility:visible !important;font-family: 'Do Hyeon', sans-serif;}
