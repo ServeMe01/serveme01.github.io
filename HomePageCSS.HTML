@@ -1,61 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="LogoIcon.png">
+<title>Serve Me</title>
 <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1" rel="stylesheet">
 <style>
-body{background-color: #fffcfc;
-}
+  body{
+      margin: 0;
+    background-color: #fffcfc;
+  }
+  #test {
+      position:relative;
+      z-index:0;
+      width: 100%;
+      height:400px;
+  }
+  #main_img {
+
+  }
+  #overlay_img {
+      position:absolute;
+      bottom:0;
+      right:33%;
+      z-index:1;
+      bottom:0;
+  }
+    h1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 50px;
+        color: #333;
+    }
+    bodyText {
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 25px;
+    }
+
+    }
+  ul.footer {
+
+    background-color: #d8d8d8;
+    width: 100%;
+    bottom: 0;
+  }
+
+  li.footer {
+    display: block;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Do Hyeon', sans-serif;
+  }
+  footer{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #d8d8d8;
+    bottom: 0;
+    width: 100%;
+  }
     ul {
+        z-index: 3;
+
+        position: fixed;
         list-style-type: none;
-        margin: 0;
-        padding: 0;
         overflow: hidden;
         background-color: #333;
-}
+	    top: 0;
+	    width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     li {
-	float: right;
-}
+	    float: right;
+    }
     li a {
         display: block;
-        color: #f7d033;
+        color: white;
         text-align: center;
         padding: 25px 20px;
         text-decoration: none;
         font-size: 15pt;
-        font-family: 'Do Hyeon', sans-serif;;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+        font-family: 'Do Hyeon', sans-serif;
+    }
 
-.sticky + .content {
-  padding-top: 60px;
-}
+    li a:hover {
+        color: #f7d033;
+	   // background-color: #000000;
+    }
 </style>
 </head>
 
-<div>
-  
-<ul>
-  <li style="float:left"><img src="ServeMeLogoUnfinishedTransparent.png" alt="Serve Me" width="125" height="75"></li>
-  <li><a href="#LogIn">LOG IN/ SIGN UP</a></li>  
-  <li><a href="#About">ABOUT US</a></li>
-  <li><a href="#Gallery">GALLERY</a></li>
-  <li><a href="#Partners">OUR PARTNERS</a></li>
-  <li><a href="#HowWeWork">HOW WE WORK</a></li>
-</ul>
-
-</div>
-
 <body>
+  <ul>
+    <li style="float:left"><img src="LogoShiny.gif" alt="Serve Me" width="100" height="75"></li>
+    <li><a href="#LogIn">LOG IN/ SIGN UP</a></li>
+    <li><a href="#About">ABOUT US</a></li>
+    <li><a href="#Gallery">GALLERY</a></li>
+    <li><a href="#Partners">OUR PARTNERS</a></li>
+    <li><a href="#How-We-Work">HOW WE WORK</a></li>
+  </ul>
+
   <center>
-    <div>
-      <h1><font face="verdana"><!––SERVE ME!--></font></h1>
-    </div>
-  <img src="DishClosed.png" onclick="this.src='DishOpening.gif'" alt="Serve Me Dish" height="720" width="720">
+      <h1 style="padding-top: 50px">Serve Me!</h1>
+      <bodyText>Reversing the Traditional Ways of Catering</bodyText>
   </center>
+
+  <div id = "test" style="padding-top:10px;text-align: center;">
+      <img src="https://blog.cvent.com/wp-content/uploads/2017/08/catering-dinner-2200x800.jpg" width = 100% height="400" id="main_img">
+      <img src="DishClosed2.png" onmouseover="this.src='DishOpening2.gif'" onmouseout="this.src='DishClosed2.png'" alt="Serve Me Dish" height="400" width="400" id="overlay_img">
+  </div>
+
+
+  <a id="How-We-Work" style="text-align: left;">
+  <h1> How We Work </h1>
+</a>
+<a id="Partners"style="text-align: center;">
+  <h1> Our Partners </h1>
+</a>
+<a id="Gallery" style="text-align: center;">
+  <h1> Gallery </h1>
+</a>
+<a id="About" style="text-align: right;">
+  <h1> About Us </h1>
+</a>
+
+<footer>
+    <li><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-128.png" height="70px"></li>
+    <li><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/youtube_online_social_media-128.png" height="70px"></li>
+    <li><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/facebook_online_social_media-128.png" height="70px"></li>
+    <li><img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/instagram_online_social_media-128.png" height="70px"></li>
+    <li style="float:left"><a>Serve Me!</a></li>
+</footer>
 </body>
 
 </html>
