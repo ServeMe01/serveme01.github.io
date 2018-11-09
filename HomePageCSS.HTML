@@ -5,6 +5,7 @@
 <title>Serve Me</title>
 <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1" rel="stylesheet">
 <style>
+
   body{
       margin: 0;
     background-color: #fffcfc;
@@ -28,6 +29,11 @@
         font-family: 'Do Hyeon', sans-serif;
         font-size: 50px;
         color: #333;
+    }
+    h2 {
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 35px;
+        color:black;
     }
     bodyText {
         font-family: 'Gothic A1', sans-serif;
@@ -54,7 +60,8 @@
     font-family: 'Do Hyeon', sans-serif;
   }
   .imageBorder {
-      border: 1px Black;
+      border:1px solid white;
+      border-radius: 10px;
   }
   footer{
     list-style-type: none;
@@ -102,7 +109,6 @@
       float:right;
       width: 45%;
       margin-right: 5%;
-      padding-bottom: 25px;
   }
   .gallery-paragraph-1{
       border-left:8px solid #e00c01;
@@ -116,7 +122,8 @@
       padding-right:15px;
       word-wrap: break-word;
   }
-
+  .lineBreak{
+      border: 1px solid #333; width:85%;
    }
 * {box-sizing: border-box}
         body {font-family: Verdana, sans-serif; margin:0}
@@ -124,8 +131,8 @@
         img {vertical-align: middle;}
         /* Slideshow container */
         .slideshow-container {
-            max-width: 500px;
-            max-height: 200px;
+            max-width: 1000px;
+            max-height: 400px;
             position: relative;
             margin: auto;
         }
@@ -143,7 +150,14 @@
             transition: 0.6s ease;
             border-radius: 0 3px 3px 0;
         }
-        /* Position the "next button" to the right */
+      .partnersImage {
+          border : 6.66px solid transparent;
+      }
+      .partnersImage:hover {
+          border: 6.66px solid #f7d033;
+      }
+
+  /* Position the "next button" to the right */
         .next {
             right: 0;
             border-radius: 3px 0 0 3px;
@@ -200,7 +214,7 @@
 
 <bodyText>
   <ul class = hdr>
-    <li style="float:left"><img src="https://i.imgur.com/j1sQSYz.gif" alt="Serve Me" width="100" height="75"></li>
+    <li style="float:left"><img src="https://i.imgur.com/j1sQSYz.gif" onmouseover="this.src='https://i.imgur.com/j1sQSYz.gif'"alt="Serve Me" width="100" height="75"></li>
     <li class = "hd"><a href="#LogIn">LOG IN/ SIGN UP</a></li>
     <li class = "hd"><a href="#About">ABOUT US</a></li>
     <li class = "hd"><a href="#Gallery">GALLERY</a></li>
@@ -218,48 +232,58 @@
       <img src="https://i.imgur.com/FbQZ9K4.png" onmouseover="this.src='https://i.imgur.com/Z1huSwy.gif'" onmouseout="this.src='https://i.imgur.com/FbQZ9K4.png'" alt="Serve Me Dish" height="400" width="400" id="overlay_img">
   </div>
 
+    &nbsp;
+    <hr id="How-We-Work" class="lineBreak"  />
+    &nbsp;
 
-  <a id="How-We-Work" style="text-align: center;">
+  <a style="text-align: center;">
   <h1> How We Work </h1>
-      <img class = "imageBorder" src="https://i1.wp.com/www.bar.it/wp-content/uploads/2017/06/catering-e1496990275100.jpg" alt="Picture of food" width=45% height=width style="float:left; margin-left: 2.5%; padding-bottom: 40px;">
+      <img class = "imageBorder" src="https://i1.wp.com/www.bar.it/wp-content/uploads/2017/06/catering-e1496990275100.jpg" alt="Picture of food" width=45% height=width style="float:left; margin-left: 2.5%;">
       <div class = "gallery-text-right">
           <p class ="gallery-paragraph-2">Tired of scouring through endless catering services and leaving unsatisfied? <em>Serve Me!</em> reverses the traditional catering ways to lead customers to their ideal catering partners for events.
           <br><br>Want to see how we work? Watch the video below!</p>
       </div>
 </a>
-    </div>
-<a id="Partners"style="text-align: center;">
-    <p style="text-align: center;color:white;"> Our Partners </p>
+
+    &nbsp;
+    <hr id="Partners" class="lineBreak"  />
+    &nbsp;
+
+<a style="text-align: center;">
     <h1 style="text-align: center;"> Our Partners </h1>
 
     <center>
-    <img src="https://media.vogue.in/wp-content/uploads/2018/05/Shantanu-and-Nikhils-latest-collaboration-blends-couture-with-cuisine-866x487.jpg" width=80%>
+    <img class = "imageBorder"  src="https://media.vogue.in/wp-content/uploads/2018/05/Shantanu-and-Nikhils-latest-collaboration-blends-couture-with-cuisine-866x487.jpg" width=80%>
     </center></br>
-    <center><p>Thanks to our diverse, committed and passionate corporate partners. Thank you to our partners in changing the world!</p></center></br>
+    <center><p style="margin-left: 3%;margin-right: 3%;">Thanks to our diverse, committed and passionate corporate partners. Thank you to our partners in changing the world!</p></center></br>
     <center>
-        <img src="https://georgiantriangle.bigbrothersbigsisters.ca/wp-content/uploads/sites/166/2018/04/boston-pizza-orig-1.jpg" width="200px" ;height="150px">
-        <img src="https://pbs.twimg.com/profile_images/685492976848650241/ONBUy0x4_400x400.jpg" width="200px" ;height="150px">
-        <img src="https://t3.rbxcdn.com/af511af0ce6720150e52209fab6b247a" width="200px" ;height="150px">
+        <a href="https://bostonpizza.com/en/index.html" target="_blank" ><img class="partnersImage" src="https://georgiantriangle.bigbrothersbigsisters.ca/wp-content/uploads/sites/166/2018/04/boston-pizza-orig-1.jpg" width="200px" ;height="150px"></a>
+        <a href="http://www.recettes.qc.ca/" target="_blank""><img class="partnersImage" src="https://pbs.twimg.com/profile_images/685492976848650241/ONBUy0x4_400x400.jpg" width="200px" height="150px"></a>
+        <a href="https://www.pizzahut.ca/home" target="_blank""> <img class="partnersImage" src="https://t3.rbxcdn.com/af511af0ce6720150e52209fab6b247a" width="200px" ;height="150px"></a>
     </center>
-
 </a>
-<a id="Gallery" style="text-align: center;">
+
+    &nbsp;
+    <hr id="Gallery" class="lineBreak" />
+    &nbsp;
+
+    <a style="text-align: center;">
   <h1> Gallery </h1>
     <div class="slideshow-container">
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="https://i1.wp.com/sahanaconventioncentre.in/files/uploads/2017/04/CATERING-500x200.jpg" style="width:500px" height="200px">
+            <img src="https://i1.wp.com/sahanaconventioncentre.in/files/uploads/2017/04/CATERING-500x200.jpg" style="width:1000px" height="400px">
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="http://www.presidentialapartmentslondon.com/wp-content/uploads/2016/07/1385385670.Food-and-Catering-500x200.jpg" style="width:500px" height="200px">
+            <img src="http://www.presidentialapartmentslondon.com/wp-content/uploads/2016/07/1385385670.Food-and-Catering-500x200.jpg" style="width:1000px" height="400px">
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="https://media.olivegarden.com/images/site/ext/pages/_promotions/catering/catering-hhd-11-1016.jpg" style="width:500px" height="200px">
+            <img src="https://media.olivegarden.com/images/site/ext/pages/_promotions/catering/catering-hhd-11-1016.jpg" style="width:1000px" height="400px">
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -274,13 +298,21 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 </a>
-<a id="About" style="text-align: center;">
-  <h1> About Us </h1>
-        <h2 style="text-align: right; margin-right: 20%">Our Mission</h2>
+    &nbsp;
+    <hr id="About" class="lineBreak" />
+    &nbsp;
 
-    <img src="http://bourg-traiteur.com/wp-content/uploads/2014/06/reserver-traiteur-bourg-bresse.jpg" alt="Catering" width=45% height=width style="float:left; margin-left: 2.5%; margin-top: 6%;" >
+<a style="text-align: center;">
+  <h1> About Us </h1>
+        <!--h2 style="text-align: right; margin-right: 20%">Our Mission</--h2-->
+
+    <img class = "imageBorder" src="http://bourg-traiteur.com/wp-content/uploads/2014/06/reserver-traiteur-bourg-bresse.jpg" alt="Catering" width=45% height=width style="float:left; margin-left: 2.5%; margin-top: 6%;" >
     <div class = "gallery-text-right">
         <p class ="gallery-paragraph-2">Want to host an event, organize a wedding? Obviously you can already do that, but lets face it, it is stressful and demands a lot of effort. Why would you ask for a service while you need something. Our mission is to help you find what you need with the less effort possible and the maximum choices. Select what you want and the offers are going to follow one after another. This revolutionary will save you not only time but also money. We offer the cheapest on the market. All this is nothing without efficiency, we promise you the fastest delivery possible. We are following the satisfaction guaranteed policy.</p>
+    </div>
+    <img class = "imageBorder" src="https://static.wixstatic.com/media/5b5dd3_0e1d9029ebc64153bc16d84d00c581b8.png_srz_1903_868_85_22_0.50_1.20_0.00_png_srz" alt="Catering" width=45% height=width style="float:left; margin-left: 2.5%; margin-top: 6%;" >
+    <div class = "gallery-text-right">
+        <p class ="gallery-paragraph-2">[SAVE THE WHALES TEXT HERE]</p>
     </div>
 
 
