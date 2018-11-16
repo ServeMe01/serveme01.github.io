@@ -1,0 +1,41 @@
+CSS
+
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1" rel="stylesheet">
+<style>
+body{background-color: #fffcfc;
+}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+}
+    li {
+	float: right;
+}
+    li a {
+        display: block;
+        color: #f7d033;
+        text-align: center;
+        padding: 25px 20px;
+        text-decoration: none;
+        font-size: 15pt;
+        font-family: 'Do Hyeon', sans-serif;;
+}
+
+----------------------------------------------------------
+HTML
+
+<div>
+  
+<ul>
+  <li style="float:left"><img src="ServeMeLogoUnfinishedTransparent.png" alt="Serve Me" width="125" height="75"></li>
+  <li><a href="#LogIn">LOG IN/ SIGN UP</a></li>  
+  <li><a href="#About">ABOUT US</a></li>
+  <li><a href="#Gallery">GALLERY</a></li>
+  <li><a href="#Partners">OUR PARTNERS</a></li>
+  <li><a href="#HowWeWork">HOW WE WORK</a></li>
+</ul>
+
+</div>
