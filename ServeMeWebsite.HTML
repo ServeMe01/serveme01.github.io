@@ -5,9 +5,23 @@
     <title>Serve Me</title>
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1" rel="stylesheet">
     <style>
-    html {
-        scroll-behavior: smooth;
-    }
+        html {
+            scroll-behavior: smooth;
+        }
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 2px #222222;
+            border: 3px black;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #222222;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #f7d033;
+            border-radius:4px;
+        }
         body{
             margin: 0;
             background-color: #fffcfc;
@@ -25,9 +39,9 @@
 
         }
         .main_img_partners {
-            background: url('https://media.vogue.in/wp-content/uploads/2018/05/Shantanu-and-Nikhils-latest-collaboration-blends-couture-with-cuisine-866x487.jpg') no-repeat fixed center;
+            background: url('https://i1.wp.com/nextdivas.com/wp-content/uploads/2018/05/shantanu-nikhils-latest-collaboration-blends-couture-with-cuisine.jpg?fit=1920%2C1080') no-repeat fixed center;
             background-size: cover;
-            height: 400px;
+            height: 450px;
             width: 100%;
 
         }
@@ -48,6 +62,7 @@
             color:black;
         }
         bodyText {
+            font-color:black;
             font-family: 'Gothic A1', sans-serif;
             font-size: 25px;
         }
@@ -72,8 +87,26 @@
             font-family: 'Do Hyeon', sans-serif;
         }
         .imageBorder {
-            border:1px solid white;
-            border-radius: 10px;
+            border:7px solid #fffcfc;
+            border-radius: 17px;
+        }
+        .imageBorder:hover {
+            border:7px solid #f7d033;
+            border-radius: 2px;
+            -webkit-transition: 1s;
+            transition: 0.3s;
+        }
+        .profileImage{
+            width:90%;
+            length:90%;
+            border:7px solid #333333;
+            border-radius: 90%;
+        }
+        .profileImage:hover {
+            border:7px solid #f7d033;
+            border-radius: 2px;
+            -webkit-transition: 1s;
+            transition: 0.3s;
         }
         footer{
             list-style-type: none;
@@ -110,6 +143,8 @@
         li.hd a:hover {
             color: #f7d033;
         // background-color: #000000;
+            -webkit-transition: 1s;
+            transition: 0.3s;
         }
         }
         .gallery-text-left{
@@ -139,11 +174,83 @@
         }
         .partnersImage {
             border : 6.66px solid transparent;
+            width:200px;
+            height:200px;
         }
         .partnersImage:hover {
             border: 6.66px solid #f7d033;
+            -webkit-transition: 1s;
+            transition: 0.3s;
+        }
+        .pricingTable {
+            float: left;
+            width: 33.3%;
+            padding: 8px;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 50px;
+            color: white;
         }
 
+        .price {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            -webkit-transition: 1s;
+            transition: 0.3s;
+            border : 6.66px solid transparent;
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 35px;
+            color:black;
+
+        }
+
+        .price:hover {
+            border: 6.66px solid #f7d033;
+            color: #f7d033;
+
+        }
+
+        .price .tableTitle {
+            font-family: 'Do Hyeon', sans-serif;
+            background-color: #333;
+            color: white;
+        }
+
+        .price li {
+            list-style-type: none;
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            -webkit-transition: 1s;
+            transition: 0.3s;
+            border-bottom : 6.66px solid;
+            border-radius : 6.66px;
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 35px;
+            color:black
+        }
+        .theTeam {
+            float: left;
+            width: 20%;
+        }
+        .teamNames li {
+            list-style-type: none;
+            margin: 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #333; width:85%;
+
+        }
+        .name{
+            float:center;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 35px;
+            color:black
+        }
+        .title{
+            font-family: 'Gothic A1', sans-serif;
+            font-size: 20px;
+            color:black
+        }
         * {box-sizing: border-box}
         body {font-family: Verdana, sans-serif; margin:0}
         .mySlides {display: none}
@@ -178,11 +285,13 @@
         /* On hover, add a black background color with a little bit see-through */
         .prev:hover, .next:hover {
             background-color: rgba(0,0,0,0.8);
+            color:#f7d033;
         }
         /* Number text (1/3 etc) */
         .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
+            color:white;
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 20px;
             padding: 8px 12px;
             position: absolute;
             top: 0;
@@ -193,13 +302,13 @@
             height: 8px;
             width: 8px;
             margin: 0 2px;
-            background-color: #bbb;
+            background-color: #d8d8d8;
             border-radius: 50%;
             display: inline-block;
             transition: background-color 0.6s ease;
         }
         .active, .dot:hover {
-            background-color: #717171;
+            background-color: #f7d033;
         }
         /* Fading animation */
         .fade {
@@ -230,6 +339,7 @@
         <li style="float:left"><a href="#top"><img src="https://i.imgur.com/j1sQSYz.gif" onmouseover="this.src='https://i.imgur.com/j1sQSYz.gif'"alt="Serve Me" width="100" height="75"></a></li>
         <li class = "hd"><a href="#LogIn">LOG IN/ SIGN UP</a></li>
         <li class = "hd"><a href="#About">ABOUT US</a></li>
+        <li class = "hd"><a href="#Pricing">PRICING</a></li>
         <li class = "hd"><a href="#Gallery">GALLERY</a></li>
         <li class = "hd"><a href="#Partners">OUR PARTNERS</a></li>
         <li class = "hd"><a href="#How-We-Work">HOW WE WORK</a></li>
@@ -242,7 +352,7 @@
 
     <div id = "test" style="padding-top:10px;text-align: center;">
         <div class = "main_img"></div>
-        <img src="https://i.imgur.com/FbQZ9K4.png" onmouseover="this.src='https://i.imgur.com/xSIbte7.gif'" onmouseout="this.src='https://i.imgur.com/FbQZ9K4.png'" alt="Serve Me Dish" height="400" width="400" id="overlay_img">
+        <img src="https://i.imgur.com/FbQZ9K4.png" onmouseover="this.src='https://i.imgur.com/xSIbte7.gif'" onmouseout="this.src='https://i.imgur.com/TgUjH7s.gif'" alt="Serve Me Dish" height="400" width="400" id="overlay_img">
     </div>
     &nbsp;
     <hr id="How-We-Work" class="lineBreak"  />
@@ -257,9 +367,6 @@
                 Choose a caterer and voilà... dinner is served!</p>
 
         </div>
-        <center>
-        <img class="imageBorder" src="https://i.imgur.com/0Xn55fy.png" style="width:75%">
-        </center>
 
     </a>
 
@@ -273,12 +380,13 @@
         <center>
             <div class="main_img_partners"></div>
         </center>
-        <center><p style = "margin-left: 2.5%;margin-right: 2.5%"> We are partnered with multiple different establishments! Imagine the opportunities for small business owners. Here are a couple of businesses listed now on ServeMe!</p></center></br>
+        <center><p style = "margin-left: 2.5%;margin-right: 2.5%"> We plan to be partnered with a variety different establishments! Imagine the opportunities for small business owners. Here are a couple of businesses with whom <i>Serve Me!</i> would love to be partnered!</p></center></br>
 
         <center>
-            <a href="https://bostonpizza.com/en/index.html" target="_blank" ><img class="partnersImage" src="https://georgiantriangle.bigbrothersbigsisters.ca/wp-content/uploads/sites/166/2018/04/boston-pizza-orig-1.jpg" width="200px" ;height="150px"></a>
-            <a href="http://www.recettes.qc.ca/" target="_blank"><img class="partnersImage" src="https://pbs.twimg.com/profile_images/685492976848650241/ONBUy0x4_400x400.jpg" width="200px" height="150px"></a>
-            <a href="https://www.pizzahut.ca/home" target="_blank"> <img class="partnersImage" src="https://t3.rbxcdn.com/af511af0ce6720150e52209fab6b247a" width="200px" ;height="150px"></a>
+            <a href="https://bostonpizza.com/en/index.html" target="_blank"><img class="partnersImage" src="https://georgiantriangle.bigbrothersbigsisters.ca/wp-content/uploads/sites/166/2018/04/boston-pizza-orig-1.jpg"></a>
+            <a href="http://www.franksfoods.ca/" target="_blank"><img class="partnersImage" src="https://tourette.ca/wp-content/uploads/2018/06/franks-baked-goods.png"></a>
+            <a href="https://www.pizzahut.ca/home" target="_blank"> <img class="partnersImage" src="https://t3.rbxcdn.com/af511af0ce6720150e52209fab6b247a"></a>
+            <a href="http://www.bytowncatering.com/" target="_blank"><img class="partnersImage" src="http://www.ccaward.com/uploads/media/logo/0001/07/thumb_6313_logo_med.jpeg"</a>
         </center>
     </a>
 
@@ -292,12 +400,12 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
-                <img src="https://i1.wp.com/sahanaconventioncentre.in/files/uploads/2017/04/CATERING-500x200.jpg" style="width:1000px" height="400px">
+                <img src="https://www.kenricks.com/wp-content/uploads/2017/08/cactering-packages-resized.jpg" style="width:1000px" height="400px">
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
-                <img src="http://www.presidentialapartmentslondon.com/wp-content/uploads/2016/07/1385385670.Food-and-Catering-500x200.jpg" style="width:1000px" height="400px">
+                <img src="http://swadcafe.net/images/slides/1.jpg" style="width:1000px" height="400px">
             </div>
 
             <div class="mySlides fade">
@@ -320,6 +428,35 @@
 
     </a>
     &nbsp;
+
+    <hr id="Pricing" class="lineBreak"  />
+    &nbsp;
+    <a style ="text-align: center;">
+        <h1>Pricing</h1>
+        <div class="pricingTable">
+            <ul class="price">
+                <li class="tableTitle">Customer</h1></li>
+                <li class="priceBox">Free</li>
+                <li class="priceDetail">Access to the<br><i>Serve Me!</i> app</li>
+            </ul>
+        </div>
+        <div class="pricingTable">
+            <ul class="price">
+                <li class="tableTitle">Caterer Package 1</h1></li>
+                <li class="priceBox">Subscription Based</li>
+                <li class="priceDetail">Official <i>Serve Me!</i> Caterer </li>
+            </ul>
+        </div>
+        <div class="pricingTable">
+            <ul class="price">
+                <li class="tableTitle">Caterer Package 2</h1></li>
+                <li class="priceBox">Percentage Based</li>
+                <li class="priceDetail">Official <i>Serve Me!</i> Caterer </li>
+            </ul>
+        </div>
+
+    </a>
+
     <hr id="About" class="lineBreak" />
     &nbsp;
 
@@ -331,6 +468,51 @@
         <div class = "gallery-text-right">
             <p class ="gallery-paragraph-2">Hosting an event? From birthdays, to bar mitzvahs, and weddings, <i>Serve Me!</i> ensures your catering experience is worry-free and stress-free. Our mission is to help you find wonderful caterers effortlessly. Submit your event details and we’ll match you with suitable caterers in your area. Simply compare quotes and ratings, and then book your favourite match for your event! Save time, money, and the headache of searching for yourself. Let us do the work for you. Who says you can’t have your cake and eat it too?
             </p>
+        </div>
+    </a>
+    <hr class="lineBreak" />
+    <a style="text-align": center;>
+        <center>
+    <h1 > The Team </h1>
+        </center>
+        <div class="theTeam">
+            <ul class="teamNames">
+                <img class = "profileImage" src = "https://static.thenounproject.com/png/630729-200.png">
+                <li class="name"><center>Afrah<br>Ali</center></li>
+                <li class="title"><center>--Title--</center></li>
+            </ul>
+        </div>
+        <div class="theTeam">
+            <ul class="teamNames">
+                <img class = "profileImage" src = "https://static.thenounproject.com/png/630729-200.png">
+                <li class="name"><center>Alan<br>Harris</center></li>
+                <li class="title"><center>Graphics Designer/ Web Developer</center></li>
+
+            </ul>
+        </div>
+        <div class="theTeam">
+            <ul class="teamNames">
+                <img class = "profileImage" src = "https://static.thenounproject.com/png/630729-200.png">
+                <li class="name"><center>Benedicte<br>Oulai</center></li>
+                <li class="title"><center>--Title--</center></li>
+
+            </ul>
+        </div>
+        <div class="theTeam">
+            <ul class="teamNames">
+                <img class = "profileImage" src = "https://static.thenounproject.com/png/630729-200.png">
+                <li class="name"><center>Greg<br>Price</center></li>
+                <li class="title"><center>Company Creator/ Visionary</center></li>
+
+            </ul>
+        </div>
+        <div class="theTeam">
+            <ul class="teamNames">
+                <img class = "profileImage" src = "https://static.thenounproject.com/png/630729-200.png">
+                <li class="name"><center>Mohamed<br>Labzagui</center></li>
+                <li class="title"><center>--Title--</center></li>
+
+            </ul>
         </div>
     </a>
 
